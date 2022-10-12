@@ -1,0 +1,43 @@
+#body {
+    background-color: #E4DFD9;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+.hello {
+    /* position: relative; */
+    /* background-color: rgb(228, 230, 217); */
+    padding: 20px;
+    font-family: "Rubik", "sans-seriff";
+}
+h2 {
+    text-align: center;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+    font-family: "Rubik", "sans-seriff";
+}
+.form-floating {
+    margin: 10px;
+}
+.btn {
+    margin: 10px;
+}
+p {
+    text-align: center;
+}
+.outer {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+#output {
+    display:none;
+    margin: auto;
+    width: 50%;
+}
