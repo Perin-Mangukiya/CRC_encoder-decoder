@@ -15,82 +15,10 @@
 <body id="body">
     
     <h2 style="margin-bottom: 0px">CRC Encoder and Decoder</h2>
-    <div id="hello"></div>
-    <div class="outer">
-        <form id="form">
-            <div class="hello">
-                <p>
-                    Enter the dataword and key in form of binary number.<br>
-                    <b>Ex:</b> X^5 + X^4 + X^3 + 0*(X^2) + X^1 + 1<br>
-                    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  1 &nbsp&nbsp&nbsp +&nbsp&nbsp  1&nbsp&nbsp&nbsp  +&nbsp&nbsp  1&nbsp&nbsp&nbsp  +&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp    0&nbsp&nbsp&nbsp&nbsp&nbsp   +&nbsp&nbsp  1&nbsp&nbsp  +&nbsp 1<br>
-                    &nbsp&nbsp&nbsp&nbsp    = 111011
-                </p>
-                <hr>
-                <div class="form-floating">
-                    <input type="text" class="form-control" name="dataword" id="dataword" placeholder="111000...">
-                    <label for="floatingInput">Dataword</label>
-                </div>
 
-                <div class=" form-floating">
-                    <input type="text" class="form-control" name="key" id="key" placeholder="110100...">
-                    <label for="floatingInput">Key</label>
-                </div>
-
-                <div class="d-grid gap-2">
-                    <button class="btn btn-dark" type="button" id="submit" onclick="handleClick()">Submit</button>
-                </div>
-            </div>
-        </form>
-
-    </div>
-
-    <div id="output">
-
-
-        <table class="table table-hover table-success table-striped">
-            <thead>
-              <tr>
-                <th scope="col">Attribute</th>
-                <th scope="col">Result</th>
-              </tr>
-            </thead>
-            <tbody class="table-group-divider">
-              <tr>
-                <td id="Codeword"></td>
-                <td id="Codeword-ans"></td>
-              </tr>
-              <tr>
-                <td id="encode-remainder"></td>
-                <td id="encode-remainder-ans"></td>
-              </tr>
-              <tr>
-                <td id="Dataword"></td>
-                <td id="Dataword-ans"></td>
-              </tr>
-              <tr>
-                <td id="decode-remainder"></td>
-                <td id="decode-remainder-ans"></td>
-              </tr>
-              <tr>
-                <td id="size-dataword"></td>
-                <td id="size-dataword-ans"></td>
-              </tr>
-              <tr>
-                <td id="size-codeword"></td>
-                <td id="size-codeword-ans"></td>
-              </tr>
-              <tr>
-                <td id="size-remainder"></td>
-                <td id="size-remainder-ans"></td>
-              </tr>
-              <tr>
-                <td id="size-divisor"></td>
-                <td id="size-divisor-ans"></td>
-              </tr>
-            </tbody>
-          </table>
-
-
+    <div class="main-buttons d-grid col-6 mx-auto gap-2">
+        <a class="encode-link" href="/encode.html"><button style="width: 100%; height: 50px; font-size: 18px;" class="btn btn-dark" type="button">Encode</button></a>
+        <a class="encode-link" href="/decode.html"><button style="width: 100%; height: 50px; font-size: 18px;" class="btn btn-outline-dark" type="button">Decode</button></a>
     </div>
 
     <script src="index.js"></script>

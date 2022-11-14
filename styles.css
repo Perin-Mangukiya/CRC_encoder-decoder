@@ -4,8 +4,6 @@
     top: 0; right: 0; bottom: 0; left: 0;
     padding: 0;
     margin: 0;
-    
-    
 }
 .hello {
     /* position: relative; */
@@ -14,6 +12,10 @@
     font-family: "Rubik", "sans-seriff";
 }
 h2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     text-align: center;
     background-color: rgb(59, 59, 59);
     color: white;
@@ -40,4 +42,18 @@ p {
     display:none;
     margin: auto;
     width: 50%;
+}
+
+.main-buttons {
+    margin-top: 180px;
+}
+
+.encode-link {
+    text-decoration: none;
+    color: white;
+}
+
+.encode-link:hover {
+    text-decoration: none;
+    color: white;
 }
